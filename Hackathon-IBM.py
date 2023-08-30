@@ -11,7 +11,6 @@ Original file is located at
 
 import numpy as np # Mathematical Calculations
 import pandas as pd # Data operations and summaries
-import seaborn as sns # Good data visualizations
 import matplotlib.pyplot as plt # basic Visualizations
 import statsmodels.api as sm # Statistical Models
 import warnings
@@ -421,7 +420,7 @@ corrmat = X_train.corr()
 
 plt.figure(figsize=(35,5))
 #sns.heatmap(corrmat, annot = True, cmap = 'viridis')
-sns.heatmap(corrmat, annot=True)
+#sns.heatmap(corrmat, annot=True)
 
 # Function to capture pair wise correlations greater than a set threshold
 
