@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib.pyplot
+statsmodels.api
+warnings
+stats
+describe
+product
+scipy.stats
+DBSCAN
